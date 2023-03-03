@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Coin Layer Api</title>
+</head>
+<body>
+    <div class="intro">
+        <h1 id="intro-text">Welcome to your Coin Layer Api!</h1>
+        <img class="intro-img" src="static/cryptocurrency-bitcoin-1280x720.jpg" alt="Picture of Cryptocurrencies">
+    </div>
+    <div class="dataButtons">
+        <figure class="gallery__item gallery__item--1" id="fig-1" onclick="event.stopPropagation(); getPrice(this.id, event)">
+            <img src="static/988575.jpg" class="dataButton" alt="Bitcoin">
+            <h4 id="BTC"></h4>
+        </figure>
+
+        <figure class="gallery__item gallery__item--2" id="fig-2" onclick="event.stopPropagation(); getPrice(this.id, event)">
+            <img src="static/1267742.png" class="dataButton" alt="Ethereum">
+            <h4 id="ETH"></h4>
+        </figure>
+
+        <figure class="gallery__item gallery__item--3" id="fig-3" onclick="event.stopPropagation(); getPrice(this.id, event)">
+            <img src="static/Dogecoin-Cryptonewsz-12.webp" alt="Dogecoin" class="dataButton">
+            <h4 id="DOGE"></h4>
+        </figure>
+
+        <figure class="gallery__item gallery__item--4" id="fig-4" onclick="event.stopPropagation(); getPrice(this.id, event)">
+            <img src="static/Stellar-Lumens-XLM-parece-decidida-a-recuperar-su-tendencia-alcista.webp" alt="Stellar Lumens" class="dataButton">
+            <h4 id="XLM"></h4>
+        </figure>
+
+        <figure class="gallery__item gallery__item--5" id="fig-5" onclick="event.stopPropagation(); getPrice(this.id, event)">
+            <img src="static/litecoin.jpg" alt="Litecoin" class="dataButton">
+            <h4 id="LTC"></h4>
+        </figure>
+
+    </div>
+</body>
+</html>
